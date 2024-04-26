@@ -48,8 +48,7 @@ Conclusion: The project successfully combines the capabilities of SAM, Stable Di
 
 <img width="537" alt="Screenshot 2023-12-06 at 12 24 42 PM" src="https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/c115f4c3-f4fc-46c4-a78d-837c336dd511">
 
-## Used grounding dino to segment glass
 
 ## Generated new image using prompt (Add some design on glass)
 
-<img width="409" alt="image" src="https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/b21c410d-a97c-4f58-8609-4311982057de">
+![flow](https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/a3d5daa7-8843-42c6-ba32-705cd7d3a73f)
