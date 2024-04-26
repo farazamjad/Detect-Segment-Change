@@ -48,6 +48,9 @@ Conclusion: The project successfully combines the capabilities of SAM, Stable Di
 
 <img width="537" alt="Screenshot 2023-12-06 at 12 24 42 PM" src="https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/c115f4c3-f4fc-46c4-a78d-837c336dd511">
 
+# Segment using prompt
+<img width="1115" alt="Screenshot 2023-12-06 at 12 37 07 PM" src="https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/cc3c93a4-933c-47bd-9019-57f7735b8caa">
+
 
 ## Generated new image using prompt (Add some design on glass)
 
