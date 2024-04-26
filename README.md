@@ -44,8 +44,12 @@ Conclusion: The project successfully combines the capabilities of SAM, Stable Di
 
 # Results
 
-# Image generated using stable diffusion
+## Image generated using stable diffusion
 
 <img width="537" alt="Screenshot 2023-12-06 at 12 24 42 PM" src="https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/c115f4c3-f4fc-46c4-a78d-837c336dd511">
 
-<img width="524" alt="Screenshot 2023-12-06 at 12 24 56 PM" src="https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/39a35f36-aad4-4a53-8e42-67eb8b8f4327">
+## Used grounding dino to segment glass
+
+## Generated new image using prompt (Add some design on glass)
+
+<img width="409" alt="image" src="https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/b21c410d-a97c-4f58-8609-4311982057de">
