@@ -3,7 +3,7 @@
 # Overview:
  The project aims to enable text-based image editing using Self-Attention Map (SAM) models and Stable Diffusion for inpainting. The codebase consists of three main files: func.py, main.py, and models.py. These files collectively implement a pipeline for processing images, predicting bounding boxes, and performing inpainting based on text prompts.
 
-
+<img width="409" alt="image" src="https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/3020c261-14d3-43a4-9b47-c283628a7bbb">
  
 # Architectures and Libraries Used:
 
@@ -25,17 +25,21 @@ o	The central script orchestrates the entire image editing process. It begins by
 	Calling the edit_image function to generate edited images.
 ##	models.py:
 o	This file manages the downloading of essential model weights required for SAM and Grounding DINO. The download_file function fetches the models from their respective URLs, ensuring they are available for use in the project.
+
 # Workflow:
-•	Object Recognition:
+
+##	Object Recognition:
 o	Grounding DINO predicts bounding boxes, logits, and phrases related to objects in the input image based on user-specified thresholds.
-•	Mask Prediction and Transformation:
+
+##	Mask Prediction and Transformation:
 o	SAM is employed to predict masks corresponding to the recognized objects. The bounding boxes are transformed using SAM, ensuring accurate alignment with the input image.
-•	Image Annotation:
+
+##	Image Annotation:
 o	The predicted masks are overlaid on the annotated image, providing a visual representation of the recognized objects and their corresponding masks.
-•	Inpainting:
+
+##	Inpainting:
 o	The Stable Diffusion model takes the annotated image, text prompt, and masks as input to perform inpainting. This process seamlessly integrates user-specified edits into the image.
 Conclusion: The project successfully combines the capabilities of SAM, Stable Diffusion, and Grounding DINO to provide a comprehensive text-to-image editing pipeline. The use of pre-trained models and modular code design allows for efficient and customizable image processing. The project's flexibility is demonstrated through the command-line interface, enabling users to experiment with different input parameters and achieve diverse image edits.
-![image](https://github.com/farazamjad/Detect-Segment-Change/assets/81928514/9fd36f82-2311-42b4-b447-2f53e6b4899a)
 
 
 # Results
